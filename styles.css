@@ -1,4 +1,8 @@
 body {
+    body {
+    min-height: 120vh; /* Erhöhe den Wert z. B. auf 130vh oder 150vh */
+}
+
     font-family: Arial, sans-serif;
     text-align: center;
     background-color: #f8f9fa;
