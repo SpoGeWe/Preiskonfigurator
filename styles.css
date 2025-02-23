@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding-bottom: 80px;
+    
+    /* Hintergrundbild */
+    background-image: url('meinbild.jpg'); /* Direkt im gleichen Ordner */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+    
+
+#configurator {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid black;
+    color: black;
+    transition: 0.3s;
+}
+
+
+.person {
+    background-color: lightblue; 
+ 
+}
+
+.person.active {
+    background-color:#e58108 !important; /* Dunkelorange */
+    color: white;
+}
+
+.training {
+    background-color:lightblue;
+    opacity: 0.5;
+    pointer-events: background-color lightgray;
+    color: black;
+}
+
+.training.enabled {
+  
+
+    opacity: 1;
+    pointer-events: auto;
+    color: black;
+}
+
+.training.active {
+    background-color:#e58108 !important;
+    color: white !important;
+}
+
+#mitgliedsbeitrag {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(120, 184, 18);
+    color: rgb(0, 0, 0) !important;
+    padding: 15px 20px;
+    font-size: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 300px; /* Anpassen je nach Inhalt */
+}
+
+#mitgliedsbeitrag div {
+    width: 50%; /* Jeweils die Hälfte */
+}
+
+
+
+
+.day {
+    background-color: lightblue; /* HELLBLAU statt orange */
+    color: black;
+    transition: 0.3s;
+    pointer-events: auto;
+    border: 2px solid black;
+}
+
+.day.selected {
+    background-color: #e58108!important;
+    color: white !important; /* Textfarbe auf Weiß setzen */
+}
+
+.day.disabled {
+    background-color: rgb(246, 204, 113) !important;
+    color: gray !important;
+    pointer-events: none !important;
+}
+
+
+.duration {
+    background-color:lightblue;
+ 
+}
+.duration.selected {
+    background-color:#e58108 !important;
+    
+}
