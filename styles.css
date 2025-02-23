@@ -3,7 +3,7 @@ body {
     text-align: center;
     background-color: #f8f9fa;
     margin: 0;
-    padding-bottom: 80px;
+    padding-bottom: 120px;
     
     /* Hintergrundbild */
     background-image: url('meinbild.jpg'); /* Direkt im gleichen Ordner */
