@@ -83,7 +83,7 @@ button {
 }
 
 #mitgliedsbeitrag {
-    position: fixed;
+    position: auto;
     bottom: 00px;
     right: 20px;
     background-color: rgb(120, 184, 18);
@@ -97,11 +97,11 @@ button {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 300px; /* Anpassen je nach Inhalt */
+    width: 400px; /* Anpassen je nach Inhalt */
 }
 
 #mitgliedsbeitrag div {
-    width: 50%; /* Jeweils die Hälfte */
+    width: 30%; /* Jeweils die Hälfte */
 }
 
 
