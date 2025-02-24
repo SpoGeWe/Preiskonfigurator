@@ -11,7 +11,7 @@ body {
     
     /* Hintergrundbild */
     background-image: url('meinbild.jpg'); /* Direkt im gleichen Ordner */
-    background-size: cover;
+    background-size: 50%;
     background-position: center;
     background-repeat: no-repeat;
 }
