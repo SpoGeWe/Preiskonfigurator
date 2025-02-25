@@ -18,7 +18,7 @@ body {
     
 
 #configurator {
-    max-width: 700px; /* Falls notwendig anpassen */
+    max-width:1920px; /* Falls notwendig anpassen */
     margin: left; 
     margin-left: 10%; /* Verschiebt den Block weiter nach links */
     text-align: left; /* Falls Text linksbündig sein soll */
